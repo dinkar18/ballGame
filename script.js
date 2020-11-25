@@ -97,12 +97,12 @@ var blocks = setInterval(function(){
 function moveLeftPh(){
     var left = parseInt(window.getComputedStyle(character).getPropertyValue("left"));
     if(left>0){
-        character.style.left = left - 25 + "px";
+        character.style.left = left - 20 + "px";
     }
 }
 function moveRightPh(){
     var left = parseInt(window.getComputedStyle(character).getPropertyValue("left"));
     if(left<380){
-        character.style.left = left + 25 + "px";
+        character.style.left = left + 20 + "px";
     }
 }
