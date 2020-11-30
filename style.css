@@ -71,7 +71,14 @@
 }
 
 
+.text{
+width: 400px;
+    margin: auto;
+    margin-top: 10px;
+   text-align: center;
+    
 
+}
 
 .button{
     width: 400px;
@@ -80,9 +87,7 @@
    text-align: center;
     
 }
-.button>p{
- padding-bottom:30px;   
-}
+
 .left{
    
     margin-right: 40px;
