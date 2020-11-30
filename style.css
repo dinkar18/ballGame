@@ -80,6 +80,9 @@
    text-align: center;
     
 }
+.button>p{
+ padding-bottom:30px;   
+}
 .left{
    
     margin-right: 40px;
